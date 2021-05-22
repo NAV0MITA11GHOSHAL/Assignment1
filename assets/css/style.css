@@ -1,0 +1,10 @@
+@import 'variables.css';
+nav {
+    padding: .5rem 2rem;
+    background-color: var(--secondary-white);
+}
+
+nav>.menu>a {
+    margin: 0 .2rem;
+    padding: .5rem 1rem;
+}
