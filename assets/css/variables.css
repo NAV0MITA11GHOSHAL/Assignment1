@@ -1,4 +1,13 @@
+/* colors need to be updated */
+
+
+/* these are sample colors */
+
+
+/* if you got one, create new variable */
+
 :root {
     --primary-white: #f0f0f0;
     --secondary-white: #dadada;
+    --primary-dark: #6d6d6d;
 }

@@ -7,4 +7,17 @@ nav {
 nav>.menu>a {
     margin: 0 .2rem;
     padding: .5rem 1rem;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+nav>.menu>a:hover,
+nav>.menu>a.active {
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
+}
+
+.main {
+    /* height to be changed accordingly to content */
+    height: 100vh;
 }
