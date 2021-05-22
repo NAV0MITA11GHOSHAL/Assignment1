@@ -1,7 +1,9 @@
 @import 'variables.css';
 nav {
     padding: .5rem 2rem;
-    background-color: var(--secondary-white);
+    /* background-color: var(--secondary-white); */
+    box-shadow: 0 0 10px #bbd9ff;
+    z-index: 2;
 }
 
 nav>.menu>a {
@@ -20,4 +22,17 @@ nav>.menu>a.active {
 .main {
     /* height to be changed accordingly to content */
     height: 100vh;
+}
+
+#home {
+    background: linear-gradient(#bcd6f8, #bbd9ff);
+}
+
+.lander-top-corner {
+    background: url(../images/lander-top-corner.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 300px;
+    right: 0;
 }
