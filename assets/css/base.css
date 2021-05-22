@@ -163,3 +163,7 @@ textarea {
 .p12 {
     padding: 1rem 2rem;
 }
+
+main {
+    overflow: hidden;
+}

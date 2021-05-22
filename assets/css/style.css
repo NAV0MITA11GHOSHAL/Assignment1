@@ -16,3 +16,8 @@ nav>.menu>a.active {
     background-color: var(--primary-dark);
     color: var(--primary-white);
 }
+
+.main {
+    /* height to be changed accordingly to content */
+    height: 100vh;
+}
