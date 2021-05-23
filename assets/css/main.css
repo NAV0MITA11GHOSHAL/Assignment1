@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--secondary-blue);
+    color: #c1c1c1 !important;
+    font: 400 16px/24px Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif;
+    word-wrap: break-word;
+}
+
+::-webkit-scrollbar {
+    display: block;
+    width: 6px;
+    height: 6px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: none;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #006eff;
+    border-radius: 20px;
+}
+
+ ::-webkit-scrollbar-corner {
+    background: none;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #2d5dda70;
+}
+
+ ::-webkit-scrollbar-thumb:active {
+    background: #2d5dda;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    outline: none;
+    overflow: hidden;
+}
+
+input,
+textarea,
+button {
+    color: #fff;
+}
+
+.fl {
+    display: flex;
+}
+
+.flc {
+    justify-content: center;
+    align-items: center;
+}
+
+.flsb {
+    justify-content: space-between;
+}
+
+.flfs {
+    justify-content: flex-start;
+}
+
+.flas {
+    align-items: flex-start;
+}
+
+.fldrw {
+    flex-direction: row;
+}
+
+.fldcl {
+    flex-direction: column;
+}
+
+.flww {
+    flex-wrap: wrap;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.h100vh {
+    height: 100vh;
+}
+
+.w100vw {
+    width: 100vw;
+}
+
+.pfx {
+    position: fixed;
+}
+
+.pabs {
+    position: absolute;
+}
+
+.prel {
+    position: relative;
+}
+
+.t0 {
+    top: 0;
+}
+
+.b0 {
+    bottom: 0;
+}
+
+img,
+input,
+textarea {
+    box-sizing: content-box;
+}
+
+.cd {
+    cursor: default;
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.cna {
+    cursor: not-allowed;
+}
+
+.d-none {
+    display: none;
+}
+
+.lhinit {
+    line-height: initial;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p12 {
+    padding: 1rem 2rem;
+}
