@@ -61,6 +61,11 @@ nav {
     transform: rotate(360deg);
 }
 
+.gitHub {
+    border-radius: 50%;
+    width: 45px;
+}
+
 .gitHub>img {
     height: 25px;
     width: 25px;
