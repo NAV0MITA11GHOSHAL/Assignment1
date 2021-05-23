@@ -5,49 +5,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <title>Online Software</title>
-
     <link rel="stylesheet" href="./assets/css/style.css">
-
-    <!-- Pre Written CSS - by: MD -->
-    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/hamburger.css">
 </head>
 
 <body>
+    <div id="main" class="prel h100">
 
-    <!-- <div class="init"> to add a preloader for website </div> -->
-    <div class="main">
-        <nav class="pfx t0 w100 fl flsb">
-            <div class="logo fl flc">Online Software</div>
-            <div class="menu fl flc">
-                <a data-pos='0' href="#home" class="navEl w100 h100 cp fl flc active">Home</a>
-                <a data-pos='1' href="#about" class="navEl w100 h100 cp fl flc">About</a>
-                <a data-pos='2' href="#services" class="navEl w100 h100 cp fl flc">Services</a>
-                <a data-pos='3' href="#projects" class="navEl w100 h100 cp fl flc">Projects</a>
-                <a data-pos='4' href="#contact" class="navEl w100 h100 cp fl flc">Contact</a>
+
+        <!-- Navbar -->
+        <nav class="pfx fl">
+            <div class="toggle pabs" id="toggle">
+                <div class="burger hamburger" id="burger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+
+            <div class="m-logo lhinit d-none">Online Software</div>
+
+            <div class="content prel fl flc flsb h100 w100">
+                <div class="logo fl flc"></div>
+                <div class="cnt fl flc">
+                    <a class="navEl fl flc cp active home" href="#home" data-pos="1">
+                        Home
+                    </a>
+                    <a class="navEl fl flc cp about" href="#about" data-pos="2">
+                        About
+                    </a>
+                    <a class="navEl fl flc cp services" href="#services" data-pos="3">
+                        Services
+                    </a>
+                    <a class="navEl fl flc cp projects" href="#projects" data-pos="3">
+                        Projects
+                    </a>
+                    <a class="navEl fl flc cp contact" href="#contact" data-pos="3">
+                        Contact
+                    </a>
+                </div>
+                <div class="fl flc">
+                    <a class="navEl fl flc cp gitHub" href="https://github.com/mdtechs/" target="_blank">
+                        <img src="./assets/images/svg/github.svg" alt="Git Hub">
+                    </a>
+                </div>
             </div>
         </nav>
+        <!-- Navbar -->
+
+        <!-- main -->
         <main>
-            <section id="home" class="main w100vw fl flc">
-                <div class="lander-top-corner pabs t0"></div>
-                <h1>home</h1>
+            <section id="home" class="main prel fl flc h100vh">
+                <div class="shapes pabs t0 w100 h100">
+                    <div class="lander-top-corner pabs t0"></div>
+                    <div class="blob pabs t0">
+                    </div>
+                    <svg class="svg-blob pabs" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <style type="text/css">
+                            path {
+                                fill: url(#MyGradient)
+                            }
+                        </style>
+                        <defs>
+                            <linearGradient id="MyGradient">
+                                <stop offset="5%" stop-color="#99c3fa" />
+                                <stop offset="95%" stop-color="#006eff" />
+                            </linearGradient>
+                        </defs>
+                        <path
+                            d="M60.4,-47C74.9,-29.9,81,-5,73.3,11.9C65.6,28.9,44.1,37.8,22.8,48.5C1.5,59.2,-19.5,71.7,-34.7,66.5C-49.9,61.3,-59.3,38.5,-63.4,15.8C-67.5,-6.9,-66.4,-29.5,-54.9,-45.8C-43.5,-62.2,-21.7,-72.4,0.6,-72.8C22.9,-73.3,45.9,-64.1,60.4,-47Z"
+                            transform="translate(100 100)" />
+                    </svg>
+                </div>
+                <div class="container">
+
+                    <h1>home</h1>
+                </div>
             </section>
-            <section id="about" class="main w100vw fl flc">
+
+            <section id="about" class="main prel fl flc h100vh">
                 <h1>about</h1>
             </section>
-            <section id="services" class="main w100vw fl flc">
+
+            <section id="services" class="main prel fl flc h100vh">
+
                 <h1>services</h1>
             </section>
-            <section id="projects" class="main w100vw fl flc">
+
+            <section id="projects" class="main prel fl flc h100vh">
                 <h1>projects</h1>
             </section>
-            <section id="contact" class="main w100vw fl flc">
+
+
+            <section id="contact" class="main prel fl flc h100vh">
                 <h1>contact</h1>
             </section>
         </main>
-    </div>
+        <!-- main -->
 
-    <script src="./scripts.js"></script>
+        <!-- footer -->
+        <footer class="d-none">footer</footer>
+        <!-- footer -->
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
