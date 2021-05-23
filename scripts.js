@@ -9,4 +9,3 @@ navElements.forEach((a) => {
         currentNav = a.dataset.pos;
     });
 });
-© 2021 GitHub, Inc.
