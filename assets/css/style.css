@@ -15,7 +15,7 @@ main {
 nav {
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: 2;
     padding: .5rem 2rem;
     width: 100vw;
     backdrop-filter: blur(10px);
@@ -89,6 +89,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #303030;
 }
 
 .lander-top-corner {
@@ -115,7 +116,43 @@ nav {
 
 .container {
     z-index: 1;
+    padding: 2rem 4rem;
 }
+
+.lander-title {
+    color: #404040;
+    font-size: 4em;
+    font-weight: 700;
+    margin-left: 1.5em;
+    z-index: 1;
+    margin-bottom: 6rem;
+}
+
+.lander-img {
+    z-index: 1;
+}
+
+.lander-img>img {
+    animation: lander 15s linear infinite;
+}
+
+.studio-logo {
+    font-size: 12em;
+    color: #dddddd;
+    bottom: calc(25% + 4rem);
+    left: 4.5rem;
+    font-weight: 600;
+    z-index: 0;
+}
+
+
+/* 
+.lander-img {
+    background: url(../images/img/lander-img.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+} */
 
 @keyframes blob {
     0%,
@@ -145,6 +182,18 @@ nav {
     }
     100% {
         transform: translate(-40%, -20%);
+    }
+}
+
+@keyframes lander {
+    0% {
+        transform: scale(1) translate(0, 0);
+    }
+    50% {
+        transform: scale(1.08) translate(20px, 10px);
+    }
+    100% {
+        transform: scale(1) translate(0, 0);
     }
 }
 
@@ -204,6 +253,30 @@ nav {
     }
     .hamburger .line {
         display: block !important;
+    }
+    .container {
+        padding: 1rem;
+    }
+    .lander-title {
+        margin-left: .2rem;
+        margin-bottom: 1rem;
+        font-size: 40px;
+        transform: translateY(-100px);
+    }
+    .lander-img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-30%);
+        left: 2rem;
+    }
+    .lander-img>img {
+        height: 45%;
+    }
+    .studio-logo {
+        font-size: 7em;
+        top: 48%;
+        left: 0rem;
+        opacity: .5;
     }
     @keyframes animate {
         0% {
