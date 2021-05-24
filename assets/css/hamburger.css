@@ -1,7 +1,7 @@
 .hamburger .line {
     width: 25px;
     height: 2px;
-    background-color: var(--primary-blue);
+    background-color: var(--third-dark);
     margin: 6px auto;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
