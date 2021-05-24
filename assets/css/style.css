@@ -120,7 +120,7 @@ nav {
 }
 
 .lander-title {
-    color: #404040;
+    color: var(--secondary-dark);
     font-size: 4em;
     font-weight: 700;
     margin-left: 1.5em;
