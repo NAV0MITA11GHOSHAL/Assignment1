@@ -35,7 +35,7 @@ nav {
 
 .navEl.active,
 .logo,
-.gitHub,
+.abc,
 .hireMe {
     /* transform: rotate(360deg); */
     background: var(--secondary-blue);
@@ -45,7 +45,8 @@ nav {
     transition: 0.3s all;
 }
 
-.navEl:hover {
+.navEl:hover,
+.abc:hover {
     transform: scale(1.2);
 }
 
@@ -61,14 +62,15 @@ nav {
     transform: rotate(360deg);
 }
 
-.gitHub {
+.abc {
     border-radius: 50%;
     width: 45px;
 }
 
-.gitHub>img {
-    height: 25px;
-    width: 25px;
+.abc>img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
 }
 
 .hamburger .line {
