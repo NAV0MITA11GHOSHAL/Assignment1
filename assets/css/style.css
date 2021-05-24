@@ -219,10 +219,6 @@ nav {
         left: 1rem;
         opacity: .8;
     }
-    h2 {
-        font-weight: bold;
-        color: #1a7f1a;
-    }
 }
 
 
@@ -305,6 +301,13 @@ nav {
         top: 48%;
         left: 0rem;
         opacity: .5;
+    }
+    .about {
+        padding-left: .2rem;
+        justify-content: flex-start !important;
+        margin-bottom: 1rem;
+        font-size: 4em;
+        transform: translateY(-100px);
     }
     @keyframes animate {
         0% {
