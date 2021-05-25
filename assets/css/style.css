@@ -146,6 +146,16 @@ nav {
     font-weight: 600;
     z-index: 0;
 }
+.navcontainer{
+    margin: 0;
+    padding: 0;
+    height: 22px;
+    font: 11px Verdana, sans-serif;
+    width: 100%;
+    border-bottom: 1px solid #bbb;
+    list-style-type: none;
+    background: #fff;
+    }
 .flex-list{
     display: flex;
     justify-content: space-between;
