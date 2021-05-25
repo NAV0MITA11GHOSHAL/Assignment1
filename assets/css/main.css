@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: var(--secondary-blue);
+    background-color: var(--secondary-blue) !important;
     color: #c1c1c1 !important;
     font: 400 16px/24px Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif !important;
     word-wrap: break-word;
