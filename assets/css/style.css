@@ -146,7 +146,10 @@ nav {
     font-weight: 600;
     z-index: 0;
 }
-
+.flex-list{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* 
 .lander-img {
