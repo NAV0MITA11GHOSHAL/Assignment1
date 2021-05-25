@@ -116,7 +116,7 @@ nav {
     animation: animate 25s linear infinite;
 }
 
-.container {
+.cont {
     z-index: 1;
     padding: 2rem 4rem;
 }
@@ -146,7 +146,10 @@ nav {
     font-weight: 600;
     z-index: 0;
 }
-.navcontainer{
+
+
+/* 
+.navcontainer {
     margin: 0;
     padding: 0;
     height: 22px;
@@ -155,14 +158,19 @@ nav {
     border-bottom: 1px solid #bbb;
     list-style-type: none;
     background: #fff;
-    }
+} */
+
+
 /*
 .flex-list{
     display: flex;
     justify-content: space-between;
 }
 */
-.flex-list li{
+
+
+/* 
+.flex-list li {
     float: left;
     margin: 0;
     padding: 0;
@@ -170,62 +178,67 @@ nav {
     display: block;
 }
 
-.flex-list li a, .flex-list li a:link{
+.flex-list li a,
+.flex-list li a:link {
     background: #fff;
     color: #555;
     text-decoration: none;
     padding: 3px 5px 3px 5px;
     display: block;
-    }
+}
 
-.flex-list li a:hover{
+.flex-list li a:hover {
     color: #039;
     border-bottom: 3px solid #bbb;
     cursor: pointer;
     background: #eee;
-    }
+}
 
-.flex-list li a#tab1, .flex-list li a#tab1:link{
+.flex-list li a#tab1,
+.flex-list li a#tab1:link {
     color: #000;
     cursor: default;
     font-weight: bold;
     border-bottom: 3px solid #999;
-    }
+}
 
-.flex-list li a#tab1:hover{
+.flex-list li a#tab1:hover {
     border-bottom: 3px solid #f90;
     background: #eee;
-    }
-.flex-list li a#tab2, .flex-list li a#tab1:link{
+}
+
+.flex-list li a#tab2,
+.flex-list li a#tab1:link {
     color: #000;
     cursor: default;
     font-weight: bold;
     border-bottom: 3px solid #999;
-    }
+}
 
-.flex-list li a#tab2:hover{
+.flex-list li a#tab2:hover {
     border-bottom: 3px solid #f90;
     background: #eee;
-    }
-.flex-list li a#tab3, .flex-list li a#tab1:link{
+}
+
+.flex-list li a#tab3,
+.flex-list li a#tab1:link {
     color: #000;
     cursor: default;
     font-weight: bold;
     border-bottom: 3px solid #999;
-    }
+}
 
-.flex-list li a#tab3:hover{
+.flex-list li a#tab3:hover {
     border-bottom: 3px solid #f90;
     background: #eee;
-    }
-
-/* 
-.lander-img {
-    background: url(../images/img/lander-img.png);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
 } */
+
+section#about {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 @keyframes blob {
     0%,
@@ -274,7 +287,7 @@ nav {
 /* for small desktops */
 
 @media (max-width: 1024px) {
-    .container {
+    .cont {
         padding: 1rem 2rem;
     }
     .lander-title {
@@ -350,7 +363,7 @@ nav {
     .hamburger .line {
         display: block !important;
     }
-    .container {
+    .cont {
         padding: 1rem;
     }
     .lander-title {
