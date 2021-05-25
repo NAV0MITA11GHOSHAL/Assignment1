@@ -9,7 +9,7 @@
 }
 
 main {
-    overflow: auto;
+    overflow: hidden;
 }
 
 nav {
@@ -166,92 +166,14 @@ nav {
     font-weight: 600;
     z-index: 0;
 }
-<<<<<<< HEAD
 
 
-/* 
-.navcontainer {
-    margin: 0;
-    padding: 0;
-    height: 22px;
-    font: 11px Verdana, sans-serif;
-    width: 100%;
-    border-bottom: 1px solid #bbb;
-    list-style-type: none;
-    background: #fff;
-} */
-
-
-/*
-.flex-list{
-    display: flex;
-    justify-content: space-between;
-}
-*/
-
-
-/* 
-.flex-list li {
-    float: left;
-    margin: 0;
-    padding: 0;
-    width: auto;
-    display: block;
-}
-.flex-list li a,
-.flex-list li a:link {
-    background: #fff;
-    color: #555;
-    text-decoration: none;
-    padding: 3px 5px 3px 5px;
-    display: block;
-}
-.flex-list li a:hover {
-    color: #039;
-    border-bottom: 3px solid #bbb;
-    cursor: pointer;
-    background: #eee;
-}
-.flex-list li a#tab1,
-.flex-list li a#tab1:link {
-    color: #000;
-    cursor: default;
-    font-weight: bold;
-    border-bottom: 3px solid #999;
-}
-.flex-list li a#tab1:hover {
-    border-bottom: 3px solid #f90;
-    background: #eee;
-}
-.flex-list li a#tab2,
-.flex-list li a#tab1:link {
-    color: #000;
-    cursor: default;
-    font-weight: bold;
-    border-bottom: 3px solid #999;
-}
-.flex-list li a#tab2:hover {
-    border-bottom: 3px solid #f90;
-    background: #eee;
-}
-.flex-list li a#tab3,
-.flex-list li a#tab1:link {
-    color: #000;
-    cursor: default;
-    font-weight: bold;
-    border-bottom: 3px solid #999;
-}
-.flex-list li a#tab3:hover {
-    border-bottom: 3px solid #f90;
-    background: #eee;
-=======
 /* 
 .lander-img {
     background: url(../images/img/lander-img.png);
     background-size: cover;
     background-position: center;
     height: 400px;
->>>>>>> 0b99be2e7d602e7a6a146886d6f4d75ac08e8a90
 } */
 
 section#about {
