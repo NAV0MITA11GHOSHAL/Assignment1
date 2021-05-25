@@ -117,7 +117,7 @@ nav {
     animation: animate 25s linear infinite;
 }
 
-.container {
+.cont {
     z-index: 1;
     padding: 2rem 4rem;
 }
@@ -176,6 +176,13 @@ nav {
     height: 400px;
 } */
 
+section#about {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 @keyframes blob {
     0%,
     100% {
@@ -223,7 +230,7 @@ nav {
 /* for small desktops */
 
 @media (max-width: 1024px) {
-    .container {
+    .cont {
         padding: 1rem 2rem;
     }
     .lander-title {
@@ -303,7 +310,7 @@ nav {
     .hamburger .line {
         display: block !important;
     }
-    .container {
+    .cont {
         padding: 1rem;
     }
     .lander-title {
