@@ -15,18 +15,13 @@ toggle.addEventListener("click", toggleMenu);
 window.addEventListener("scroll", () => {
     let current = "";
 
-<<<<<<< HEAD
-    if (scrollY > 100) nav.style.padding = ".2rem 2.5rem";
-    else nav.style.padding = ".5rem 2rem";
-=======
     if (scrollY > 100) {
         nav.style.padding = ".2rem 2.5rem";
-        nav.style.background = "var(--secondary-blue)"
+        nav.style.background = "var(--secondary-blue)";
     } else {
         nav.style.padding = ".5rem 2rem";
-        nav.style.background = "transparent"
+        nav.style.background = "transparent";
     }
->>>>>>> 33c421cef32a11bc6b89479b0e79bbd4ce2d5316
 
     sections.forEach((div) => {
         const sectionTop = div.offsetTop;
@@ -41,8 +36,4 @@ window.addEventListener("scroll", () => {
         a.classList.remove("active");
         if (a.classList.contains(current)) a.classList.add("active");
     });
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 33c421cef32a11bc6b89479b0e79bbd4ce2d5316
