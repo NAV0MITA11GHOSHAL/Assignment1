@@ -176,6 +176,13 @@ nav {
     height: 400px;
 } */
 
+section#about {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 @keyframes blob {
     0%,
     100% {
