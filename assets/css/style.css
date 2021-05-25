@@ -196,6 +196,28 @@ nav {
     border-bottom: 3px solid #f90;
     background: #eee;
     }
+.flex-list li a#tab2, .flex-list li a#tab1:link{
+    color: #000;
+    cursor: default;
+    font-weight: bold;
+    border-bottom: 3px solid #999;
+    }
+
+.flex-list li a#tab2:hover{
+    border-bottom: 3px solid #f90;
+    background: #eee;
+    }
+.flex-list li a#tab3, .flex-list li a#tab1:link{
+    color: #000;
+    cursor: default;
+    font-weight: bold;
+    border-bottom: 3px solid #999;
+    }
+
+.flex-list li a#tab3:hover{
+    border-bottom: 3px solid #f90;
+    background: #eee;
+    }
 
 /* 
 .lander-img {
