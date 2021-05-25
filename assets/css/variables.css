@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* colors need to be updated */
 
 
@@ -17,23 +16,6 @@
     --primary-blue: #006eff;
     --secondary-blue: #edf3ff;
 }
-=======
+
+
 /* colors need to be updated */
-
-
-/* these are sample colors */
-
-
-/* if you got one, create new variable */
-
-:root {
-    --primary-white: #f0f0f0;
-    --secondary-white: #dadada;
-    --primary-dark: #6d6d6d;
-    --secondary-dark: #404040;
-    --third-dark: #303030;
-    --black: #000;
-    --primary-blue: #006eff;
-    --secondary-blue: #edf3ff;
-}
->>>>>>> 33c421cef32a11bc6b89479b0e79bbd4ce2d5316
