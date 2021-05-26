@@ -166,6 +166,12 @@ nav {
     font-weight: 600;
     z-index: 0;
 }
+.computer{
+    height: 300px;
+    width: 300px;
+    float: right;
+    position:relative;
+}
 
 
 /* 
