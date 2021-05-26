@@ -170,6 +170,7 @@ nav {
     height: 300px;
     width: 300px;
     float: right;
+    align: right;
     position:relative;
 }
 
