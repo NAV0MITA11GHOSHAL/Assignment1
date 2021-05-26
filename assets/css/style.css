@@ -167,8 +167,8 @@ nav {
     z-index: 0;
 }
 .computer{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     float: right;
     align: right;
     position:relative;
