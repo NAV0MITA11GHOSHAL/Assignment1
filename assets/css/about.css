@@ -29,8 +29,3 @@
 #about>.container>h1 {
     margin-bottom: 2rem;
 }
-.computer {
-    z-index: 1;
-    height: 5px;
-    width: 5px;
-}
