@@ -1,4 +1,4 @@
-contact h1 {
+#contact h1 {
     font-size: 48px;
     font-weight: 900;
     word-spacing: 7px;
@@ -18,18 +18,22 @@ contact h1 {
 
 .detail {
     color: black;
-    font-size: 32px;
+    font-size: 30px;
+}
+
+.fas {
+    font-size: 28px;
+}
+
+.detail>span>i.fas {
+    padding-right: 1rem;
 }
 
 .enquiry {
     padding-top: 10px;
 }
 
-.detail i {
-    padding-top: 25px;
-}
-
-.enquiry input[type=text],
+.enquiry input[type="text"],
 textarea {
     border: 0;
     outline: 0;
@@ -37,11 +41,11 @@ textarea {
     background: transparent;
     font-size: 1.5rem;
     color: black;
-    padding: .5rem 1rem 0;
+    padding: 0.5rem 1rem 0;
     margin-bottom: 1rem;
 }
 
-.enquiry button[type=submit] {
+.enquiry button[type="submit"] {
     background-color: var(--primary-blue);
     color: white;
     border-radius: 20px;
@@ -51,7 +55,7 @@ textarea {
     font-size: 1em;
 }
 
-.enquiry button[type=submit]:hover {
+.enquiry button[type="submit"]:hover {
     background-color: #003cff;
     color: white;
     border-radius: 20px;
@@ -59,7 +63,7 @@ textarea {
 }
 
 @media only screen and (max-width: 400px) {
-    .enquiry input[type=text],
+    .enquiry input[type="text"],
     textarea {
         width: 200px;
     }
