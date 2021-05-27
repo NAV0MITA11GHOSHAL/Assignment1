@@ -1,0 +1,38 @@
+.nav {
+    flex-wrap: nowrap;
+}
+
+.nav-item {
+    width: fit-content;
+    text-align: center;
+    min-width: 170px;
+    margin: .5rem 1rem;
+}
+
+.nav-link {
+    padding: 1rem 2rem;
+    color: var(--black);
+    width: 100%;
+    border-radius: 10px !important;
+    transition: all .3s ease;
+    border: 1px solid transparent;
+}
+
+.nav-link.active {
+    background-color: var(--primary-blue);
+}
+
+.nav-link:hover {
+    border: 1px solid var(--primary-blue);
+}
+
+#about>.container>h1 {
+    margin-bottom: 2rem;
+}
+
+.background {
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+	background: linear-gradient (rgba (255,255,255,0.5), rgba (255,255,255,0.5);
+}
