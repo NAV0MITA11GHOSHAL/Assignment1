@@ -25,7 +25,7 @@ nav {
 
 .navEl {
     margin: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     height: fit-content;
     transition: 0.3s all;
     border-radius: 5px;
@@ -78,8 +78,8 @@ nav {
 }
 
 .logo {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50% !important;
     background: url(../images/img/logo.png);
     background-size: cover;
@@ -166,28 +166,20 @@ nav {
     font-weight: 600;
     z-index: 0;
 }
-.computer{
-    height: 100px;
-    width: 100px;
-    float: right;
-    align: right;
-    position:relative;
-}
 
-
-/* 
-.lander-img {
-    background: url(../images/img/lander-img.png);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-} */
-
-section#about {
+section#about,
+section#services,
+section#contact {
+    overflow: hidden;
     margin-top: 4rem;
     margin-bottom: 4rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+footer {
+    background-color: var(--black);
+    padding: 2rem 1rem;
 }
 
 @keyframes blob {
