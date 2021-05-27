@@ -16,10 +16,10 @@ window.addEventListener("scroll", () => {
     let current = "";
 
     if (scrollY > 100) {
-        nav.style.padding = ".2rem 2.5rem";
+        nav.style.padding = ".5rem 3rem";
         nav.style.background = "var(--secondary-blue)";
     } else {
-        nav.style.padding = ".5rem 2rem";
+        nav.style.padding = "1rem 2rem";
         nav.style.background = "transparent";
     }
 
